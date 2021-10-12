@@ -1,0 +1,17 @@
+﻿1=> Proje N-Tier mimari paternine göre yazılacaktır...
+2=> Projede acılacak katmanlar
+Entities,
+Map,
+DAL,
+BLL,
+Common, (Ortak kullanılacak sınıfların tutulacagı katman olacaktır)
+API, (Projemizi dısarı acmak istedigimiz icin actıgımız ayrı bir katmandır)
+DTO,(API'daki esnekligimizin proje bazlı artması icin acacagımız katmandır)
+
+3=> Projede değişken isimleri local variable oldugu sürece camelCase, field oldugu sürece basında _ sembolü olmak üzere camelCase; Property,metot ve class isimleri PascalCase standartlarında yazılacaktır ve projede Türkçe karakter kullanılmayacaktır...
+
+4=> Katman isimleri Project ile baslayarak . sembolünden sonra katmansal takılarla bitecektir (Project.Entitites)
+5=> Tasarım patternlerinden Generic Repository,Singleton Pattern ve Stratedy Pattern kesinlikle kullanılacaktır...Mevcut algoritmada bu Tasarım Patternlerinin dısında baska bir Tasarım Patterni öngörülmemektedir...Ancak projenin esnekliği buna elverişli olduğundan eger cok gerekli görülürse N-Tier ile uyumlu calısan diger Tasarım Patternleri de rahatca eklenebilecektir...
+
+Kendi proje fikrini yazıyorsanı bu teknik dökümana ek olarak projede tam olarak ne yapmak istediginizi , kullanıcızın projenizi nasıl kullanacagını anlatan yaklaşık bir sayfalık bir döküman daha yazın...
+
